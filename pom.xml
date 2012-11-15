@@ -1,0 +1,12 @@
+<project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.arkadi4</groupId>
+  <artifactId>simple-web-hdfs</artifactId>
+  <version>1.0.0-SNAPSHOT</version>
+  <packaging>pom</packaging>
+
+  <modules>
+    <module>war</module>
+    <module>jetty-pkg</module>
+  </modules>
+</project>
