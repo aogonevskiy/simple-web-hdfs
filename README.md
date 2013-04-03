@@ -8,8 +8,9 @@ simple-web-hdfs is built with maven (http://maven.apache.org/). To build from th
 
     mvn clean install
 
-## INSTALLATION
+## DOWNLOAD
 
+## INSTALLATION
 
 ## USAGE
 
@@ -68,10 +69,9 @@ Sample response:
       statusCode: 200
     }
 
-### Download
+### Download file
 
 Sample request:
 
     http://localhost:8080/simple-web-hdfs/download?path=/hbase/hbase.version
-
 
