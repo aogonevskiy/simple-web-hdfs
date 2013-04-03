@@ -5,7 +5,7 @@ simple-web-hdfs is a proxy on top of Hadoop HDFS. It is intended to be used with
 ## BUILDING
 
 simple-web-hdfs is built with maven (http://maven.apache.org/). To build from the command line:
-  
+
     mvn clean install
 
 ## INSTALLATION
@@ -17,7 +17,7 @@ simple-web-hdfs is built with maven (http://maven.apache.org/). To build from th
 
 Sample request:
 
-    http://localhost:8080/simple-web-hdfs/list?path=/path/to/directory&is_recursive=true
+    http://localhost:8080/simple-web-hdfs/list?path=/hbase&is_recursive=true
 
 Sample response:
 
@@ -46,18 +46,32 @@ Sample response:
 
 Sample request:
 
-    http://localhost:8080/simple-web-hdfs/exists?path=/path/to/file
+    http://localhost:8080/simple-web-hdfs/exists?path=/hbase/hbase.version
+
+Sample response:
+
+    {
+      message: "true",
+      statusCode: 200
+    }
 
 ### Check if path is a directory
 
 Sample request:
 
-    http://localhost:8080/simple-web-hdfs/isdir?path=/path/to/file
+    http://localhost:8080/simple-web-hdfs/isdir?path=/hbase/hbase.version
+
+Sample response:
+
+    {
+      message: "false",
+      statusCode: 200
+    }
 
 ### Download
 
 Sample request:
 
-    http://localhost:8080/simple-web-hdfs/isdir?path=/path/to/file
+    http://localhost:8080/simple-web-hdfs/download?path=/hbase/hbase.version
 
 
