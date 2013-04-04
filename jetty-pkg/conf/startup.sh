@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-VERSION=0.0.1-SNAPSHOT
+VERSION=0.0.2-SNAPSHOT
 
 PRGDIR=`dirname "$0"`
 HDFSUI_HOME=`cd "$PRGDIR/.." ; pwd`

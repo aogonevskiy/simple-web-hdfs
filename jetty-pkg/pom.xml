@@ -6,7 +6,7 @@
   <parent>
     <groupId>org.arkadi4</groupId>
     <artifactId>simple-web-hdfs</artifactId>
-    <version>0.0.1-SNAPSHOT </version>
+    <version>0.0.2-SNAPSHOT</version>
     <relativePath>../pom.xml</relativePath>
   </parent>
 
@@ -27,7 +27,7 @@
     <dependency>
       <groupId>org.arkadi4</groupId>
       <artifactId>simple-web-hdfs-war</artifactId>
-      <version>0.0.1-SNAPSHOT</version>
+      <version>0.0.2-SNAPSHOT</version>
       <type>war</type>
     </dependency>
 
