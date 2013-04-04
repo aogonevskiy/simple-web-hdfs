@@ -12,6 +12,11 @@ simple-web-hdfs is built with maven (http://maven.apache.org/). To build from th
 
 ## INSTALLATION
 
+Unpack simple-web-hdfs and cd to the root. Edit conf/jetty.properties and set hdfs.host and hdfs.port to point to your Hadoop HDFS cluster. Then
+
+    cd bin
+    ./startup.sh
+
 ## USAGE
 
 ### List files

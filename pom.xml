@@ -2,11 +2,21 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>org.arkadi4</groupId>
   <artifactId>simple-web-hdfs</artifactId>
-  <version>1.0.0-SNAPSHOT</version>
+  <version>0.0.1-SNAPSHOT</version>
   <packaging>pom</packaging>
 
   <modules>
     <module>war</module>
     <module>jetty-pkg</module>
   </modules>
+
+  <build>
+    <plugins>
+      <plugin>
+        <artifactId>maven-release-plugin</artifactId>
+        <version>2.0</version>
+      </plugin>
+    </plugins>
+  </build>
+  
 </project>
