@@ -10,6 +10,8 @@ simple-web-hdfs is built with maven (http://maven.apache.org/). To build from th
 
 ## DOWNLOAD
 
+[simple-web-hdfs-0.0.1](https://s3.amazonaws.com/aogonevskiy_github/simple-web-hdfs-0.0.1-dist.zip)
+
 ## INSTALLATION
 
 Unpack simple-web-hdfs and cd to the root. Edit conf/jetty.properties and set hdfs.host and hdfs.port to point to your Hadoop HDFS cluster. Then
